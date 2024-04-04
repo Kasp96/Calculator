@@ -49,15 +49,24 @@ body {
 					border-radius: 25px;
 
 					.circle {
-                        position: absolute;
-                        top: 50%;
-                        left: 5px;
+						position: absolute;
+						top: 50%;
+						left: 5px;
 						width: 16px;
 						height: 16px;
 						background-color: var(--keys-red-1);
-                        border-radius: 50%;
-                        transform: translateY(-50%);
-                        cursor: pointer;
+						border-radius: 50%;
+						transform: translateY(-50%);
+						cursor: pointer;
+						transition: all 0.3s;
+						transition: left 0.3s;
+						
+					}
+					.active-1 {
+						left: 25px;
+					}
+					.active-2 {
+						left: 47px;
 					}
 
 					.theme-1,

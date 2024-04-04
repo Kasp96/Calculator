@@ -91,6 +91,14 @@ body {
   border-radius: 50%;
   transform: translateY(-50%);
   cursor: pointer;
+  transition: all 0.3s;
+  transition: left 0.3s;
+}
+.container .app-top-theme-toggle .active-1 {
+  left: 25px;
+}
+.container .app-top-theme-toggle .active-2 {
+  left: 47px;
 }
 .container .app-top-theme-toggle .theme-1,
 .container .app-top-theme-toggle .theme-2,
