@@ -1,44 +1,15 @@
 :root {
-	--main-bg-1: hsl(222, 26%, 31%);
-	--main-bg-2: hsl(0, 0%, 90%);
-	--main-bg-3: hsl(268, 75%, 9%);
+	--main-bg: hsl(222, 26%, 31%);
+	--kp-bg: hsl(223, 31%, 20%);
+	--result-bg: hsl(224, 36%, 15%);
 
-	--kp-bg-1: hsl(223, 31%, 20%);
-	--kp-bg-2: hsl(0, 5%, 81%);
-	--kp-bg-3: hsl(268, 71%, 12%);
-
-	--result-bg-1: hsl(224, 36%, 15%);
-	--result-bg-2: hsl(0, 0%, 93%);
-	--result-bg-3: hsl(268, 71%, 12%);
-
-	--keys-red-1: hsl(6, 63%, 50%);
-	--keys-red-1-shadow: hsl(6, 70%, 34%);
-	--keys-dark-blue-1: hsl(225, 21%, 49%);
-	--keys-dark-blue-shadow: hsl(224, 28%, 35%);
-	--keys-orange-1: hsl(30, 25%, 89%);
-	--keys-orange-1-shadow: hsl(28, 16%, 65%);
-
-	--text-clr-gray-1: hsl(221, 14%, 31%);
-	--text-clr-white: hsl(0, 0%, 100%);
-
-	--keys-cyan-2: hsl(185, 42%, 37%);
-	--keys-cyan-2-shadow: hsl(185, 58%, 25%);
-	--keys-orange-2: hsl(25, 98%, 40%);
-	--keys-orange-2-shadow: hsl(25, 99%, 27%);
-	--keys-yellow-2: hsl(45, 7%, 89%);
-	--keys-yellow-shadow-2: hsl(35, 11%, 61%);
-
-	--text-clr-gray-2: hsl(60, 10%, 19%);
-
-	--keys-violet-3: hsl(281, 89%, 26%);
-	--keys-violet-shadow-3: hsl(285, 91%, 52%);
-
-	--keys-cyan-3: hsl(176, 100%, 44%);
-	--keys-cyan-shadow-3: hsl(177, 92%, 70%);
-
-	--keys-violet-3: hsl(268, 47%, 21%);
-	--keys-violet-shadow-3: hsl(290, 70%, 36%);
-
-	--text-clr-yellow-3: hsl(52, 100%, 62%);
-	--text-clr-darkblue-3: hsl(198, 20%, 13%);
+	--toggleAndEqual: hsl(6, 63%, 50%);
+	--equal-border: hsl(6, 70%, 34%);
+	--delAndReset-bg: hsl(225, 21%, 49%);
+	--delAndReset-shadow: hsl(224, 28%, 35%);
+	--keys-bg: hsl(30, 25%, 89%);
+	--delAndReset-text: hsl(0, 0%, 100%);
+	--keys-shadow: hsl(28, 16%, 65%);
+	--single-key-clr: hsl(221, 14%, 31%);
+	--text-clr: hsl(0, 0%, 100%);
 }
